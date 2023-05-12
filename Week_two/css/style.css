@@ -1,0 +1,41 @@
+   /* This is the container for the three box */
+   .container {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    aspect-ratio: 8/1;
+  }
+  
+  /* this is for the three boxes in general */
+  .container div {
+    padding: 10%;
+    font-size: 300%;
+    text-align: center;
+    border-width: 10px;
+    outline-color: black;
+    outline-width: 10px;
+    outline-style: solid;
+    margin: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* the left box styles */
+  .left{
+    border:10px solid red;
+  }
+  
+
+  /* the  middle box styles */
+  .middle{
+    border:10px solid red;
+   border-color:blue green; 
+  }
+
+  /* the right box styles */
+  .right{
+    border-style: dashed;
+    border-width:10px;
+    border-color: red green blue yellow; 
+  }

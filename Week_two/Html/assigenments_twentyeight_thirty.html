@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Example</title>
+</head>
+
+<body>
+    <form method="post">
+        <input type=>
+        <label for="token">Token:</label>
+        <input type="hidden" id="token" name="token" value="b92f1fc2fce391ad7af633723afd3055">
+        <hr>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="o@o.com" readonly>
+        <hr>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" size="20" minlength="5" maxlength="20" required autofocus>
+        <hr>
+        <label for="skills">Programming Skills:</label>
+        <select id="skills" name="skills[]" multiple>
+            <option value="Problem Solving">Problem Solving</option>
+            <option value="Logical Thinking">Logical Thinking</option>
+            <option value="Advanced Search">Advanced Search</option>
+            <option value="Analysis">Analysis</option>
+            <option value="Planning">Planning</option>
+        </select>
+        <hr>
+        <label for="job">Job Title:</label>
+        <select id="job" name="job">
+            <option value="Front-End Developer">Front-End Developer</option>
+            <option value="Back-End Developer">Back-End Developer</option>
+            <option value="Business Analyst">Business Analyst</option>
+            <option value="Project Manager">Project Manager</option>
+            <option value="Scrum Master">Scrum Master</option>
+        </select>
+        <hr>
+        <select name="programming_languages">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="c++">C++</option>
+            <option value="c#">C#</option>
+            <option value="php">PHP</option>
+            <option value="ruby">Ruby</option>
+            <option value="swift">Swift</option>
+            <option value="go">Go</option>
+            <option value="rust">Rust</option>
+        </select>
+
+        <hr>
+
+
+        <label for="brief">Why do you want to learn programming?</label>
+        <textarea id="brief" name="brief" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        <hr>
+        <button type="submit" name="submit">Send</button>
+        <button type="reset" name="reset">Empty</button>
+    </form>
+</body>
+
+</html>
