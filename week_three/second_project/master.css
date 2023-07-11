@@ -1,0 +1,51 @@
+table{
+    width: 700px;
+    text-align: center;
+}
+table td{
+    padding:15px;
+    background-color: #c2c2c2;
+   
+
+}
+table thead td{
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+div.view,div.Delete{
+    display:inline-block;
+    
+    
+}
+.view button{
+    background-color: #009bd4;
+    color:white;
+    border:0;
+}
+.Delete button{
+background-color:rgb(255, 0, 111) ;
+color:white;
+border:0;
+}
+
+img{
+    width: 50px;
+    height:70px;
+    border:5px solid white;
+}
+thead{
+    font-weight: bolder;
+}
+
+body{
+   
+    
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100%
+    
+    
+
+}
